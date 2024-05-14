@@ -52,6 +52,7 @@ class DataLoader:
 # Classes to define the Structures of tables in database
 # It is also inherting Base class
 class TrainingData(Base):
+    # Adding columns and creating structure
     """SQLAlchemy class for training data table."""
     __tablename__ = 'training_data'
     id = Column(Integer, primary_key=True)
